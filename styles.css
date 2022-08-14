@@ -1,0 +1,71 @@
+@media only screen and (max-device-width: 1366px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
+.about-list{
+  list-style: none;
+}
+.about-list li{
+  margin: 25px;
+}
+li:nth-child(even) {
+  text-indent: 5%;
+}
+
+body{
+  color: #fff;
+
+  /* The image used */
+  background-image: url("https://www.touropia.com/gfx/b/2009/07/erg_chebbi1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+button{
+  text-align: center;
+  margin: 0 30% 0 30%;
+}
+.container1{
+  margin: 25px;
+}
+.portfolio-link{
+  padding: 3%;
+}
+footer{
+  text-align: center;
+}
+.gallery-image{
+  width: 300px;
+  height: 200px;
+  margin: 10px 30px 10px 10px;
+}
+
+.intro{
+  margin: 25% 25% 25% 25%;
+}
+.portfolio-link{
+  font-size: 48px;
+}
+.section3{
+  margin: 25% 25% 25% 25%;
+}
+.section4{
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  margin: 20px;
+  flex-direction: column;
+}
+.section4 h1{
+  text-align: center;
+}
